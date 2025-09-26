@@ -1,0 +1,472 @@
+
+/*checklist CSS*/
+
+.marginTop {
+  margin-top:2%;
+}
+
+.marginTopNegative{
+  margin-top:-3%;
+}
+input[type="text"]:disabled + label, input[type="text"][readonly="readonly"] + label {
+  color: #333;
+}
+
+.PdiHyundai {
+  overflow: hidden;
+  //margin-bottom:20%;
+}
+
+label.control-label {
+  font-size:1.5em;
+  padding:1% 0;
+}
+
+.Collapsible {
+  position: relative;
+  span {
+    cursor: pointer;
+  }
+
+  span.Collapsible__trigger {
+    font-size:2em;
+    border-bottom: 1px solid #9e9e9e;
+    display: block;
+    padding: 2% 0;
+  }
+
+  span.is-closed {
+    background: url("../images/arrow-left.png") no-repeat center left;
+    padding-left:30px;
+  }
+
+
+  span.is-open {
+    background: url("../images/arrow-down.png") no-repeat center left;
+    padding-left:30px;
+  }
+
+
+
+  .Collapsible__contentOuter {}
+
+  .Collapsible__contentInner {
+    padding:2% 0;
+    //overflow: hidden;
+  }
+
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+  left:inherit;
+  z-index: 999;
+  width: 30px;
+  height:30px;
+  //opacity:0.5;
+}
+[type="checkbox"]:checked + label::before {
+  width: 16px;
+  height:30px;
+}
+[type="checkbox"] + label::before, [type="checkbox"]:not(.filled-in) + label::after {
+  width: 30px;
+  height:30px;
+  //border-radius: 2px;
+}
+
+[type="checkbox"]:checked + label.warning::before {
+  border-bottom-color: #ff3300;
+  border-right-color: #ff3300;
+}
+
+
+[type="checkbox"] + label {
+  font-size: 1.33em;
+  padding-left:50px;
+  line-height:30px;
+  cursor: default;
+  //height:30px;
+}
+
+ul.ulPhoto {
+  //overflow: hidden;
+  display: block;
+  //padding-top: 20px;
+  //padding-bottom: 20px;
+  // top right bottom left
+  margin: 60px 0 120px 20px;
+  clear: both;;
+  padding: 0;
+  li {
+    float: left;
+    margin-right:5%;
+    //margin-bottom:5%;
+  }
+}
+
+
+ul.checkReactive {
+  //overflow: hidden;
+  display: block;
+  margin: 10px 0 0 20px;
+  clear: both;;
+  padding: 0;
+  li {
+    float: left;
+    margin-right:5%;
+    //margin-bottom:5%;
+  }
+}
+
+.input-field label {
+  font-size: 1.33em;
+
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+  position: relative;
+  z-index: 999;
+  left: 0;
+}
+
+
+[type="radio"] + label::before, [type="radio"] + label::after {
+  content: "";
+  height: 30px;
+  left: -34px;
+  margin: 4px;
+  position: absolute;
+  top: -5px;
+  transition: all 0.0s linear;
+  width: 30px;
+  z-index: 222;
+}
+
+input.radioCheck[type="radio"] {
+  width: 30px;
+  height:30px;
+  //opacity: 0.5;
+}
+
+//[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+//  cursor: default;
+//}
+
+[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+  font-size: 1.33em;
+  //padding-left:50px;
+  line-height:30px;
+  cursor: default;
+}
+
+[type="radio"]:checked + label.radioWarning::after,
+.with-gap[type="radio"]:checked + label.radioWarning::after {
+  background-color:#ff3300;
+  border:2px solid #ff3300;
+}
+
+ul.displayHdrArea {
+  overflow: hidden;
+  li {
+    float: left;
+    min-width: 15%;
+    padding-right: 5%;
+    padding-bottom:1%;
+    ul {
+      li.displayLbl, li.displayStat {
+        font-size:1.35em;
+        width: auto;
+      }
+      li.displayLbl, li.displayStat {
+        color: #fff;
+      }
+      li.displayLbl {
+        font-weight:bold;
+      }
+      li.displayStat {}
+    }
+  }
+}
+
+.input-field label.active {
+  font-size:1em;
+}
+
+.flex-theme.md-modal {
+  .md-content {
+    .md-title {
+    }
+    .md-body {
+      form {
+        input[type="text"] {
+        }
+      }
+      button {
+
+      }
+      .md-footer {
+        .button {
+
+        }
+      }
+    }
+  }
+
+}
+
+.battryBtn {
+  padding:2% 0 0 0;
+  clear: both;
+  input {
+    //margin-left:20px;
+  }
+  img {
+    display: block;
+    clear: both;
+    margin-top:3%;
+  }
+}
+
+input[type="text"]:disabled + label,
+input[type="text"][readonly="readonly"] + label {
+  color:#9e9e9e;
+}
+
+input:disabled:not([type]),
+input[readonly="readonly"]:not([type]),
+input[type="text"]:disabled,
+input[type="text"][readonly="readonly"],
+input[type="password"]:disabled,
+input[type="password"][readonly="readonly"],
+input[type="email"]:disabled,
+input[type="email"][readonly="readonly"],
+input[type="url"]:disabled,
+input[type="url"][readonly="readonly"],
+input[type="time"]:disabled,
+input[type="time"][readonly="readonly"],
+input[type="date"]:disabled,
+input[type="date"][readonly="readonly"],
+input[type="datetime"]:disabled,
+input[type="datetime"][readonly="readonly"],
+input[type="datetime-local"]:disabled,
+input[type="datetime-local"][readonly="readonly"],
+input[type="tel"]:disabled,
+input[type="tel"][readonly="readonly"],
+input[type="number"]:disabled,
+input[type="number"][readonly="readonly"],
+input[type="search"]:disabled,
+input[type="search"][readonly="readonly"],
+textarea.materialize-textarea:disabled,
+textarea.materialize-textarea[readonly="readonly"] {
+  border-bottom-style: none;
+  background-color: #f9f9f9;
+  padding-left:2%;
+}
+
+
+input:not([type]),
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="time"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+textarea.materialize-textarea {
+  //background-color: #ededed;
+  background-color: #f9f9f9;
+  padding-left:1%;
+}
+
+// edited by Gabi
+
+.takephoto {
+  width:70%;
+  maxWidth: 400px;
+}
+
+.camera-popup .photo-preview {
+  width:280px;
+}
+
+.padTopBtm {
+  padding:7% 0 0 0;
+  textarea {
+    height: auto;
+  }
+  label.active {
+    margin-top:45px;
+    left:0;
+    font-size:1.5em;
+  }
+}
+
+.m-signature-pad {
+  position: relative;
+  font-size: 10px;
+  //width: 700px;
+  height: 350px;
+  //top: 50%;
+  //left: 50%;
+  //margin-left: -550px;
+  //margin-top: 20px;
+  //border: 1px solid #e8e8e8;
+  background-color: #fff;
+  //box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+  //border-radius: 4px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.m-signature-pad--body {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 60px;
+  border: 1px solid #CCC;
+  canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+  }
+}
+
+.m-signature-pad--footer {
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+  height: 40px;
+  .description {
+    color: #C3C3C3;
+    text-align: center;
+    //font-size: 1.3em;
+    //margin-top: 1.8em;
+  }
+  .button {
+    position: absolute;
+    bottom: 0;
+  }
+  .button.clear {
+    left: 0;
+  }
+  .button.save {
+    right: 0;
+  }
+}
+
+
+.hidden {
+  display:none;
+}
+
+.scrollingToTop {
+  bottom: 100px;
+  cursor: pointer;
+  //opacity: 1;
+  position: fixed;
+  right: 30px;
+  //visibility:hidden;
+  //webkit-transition-delay: 0s;
+  //transition-delay: 0s;
+  //-webkit-transition-duration: 0.2s;
+  //transition-duration: 0.2s;
+  //-webkit-transition-property: opacity, visibility;
+  //transition-property: opacity, visibility;
+  //transition-timing-function: linear;
+  //visibility: visible;
+};
+
+i.iconMargin {
+  line-height: 54px;
+  }
+
+.commentBoxPlaceholder {
+  margin-top:40px;
+}
+
+.btmPadBtn {
+  margin-bottom:20%;
+}
+
+input:disabled:not([type]),
+input[readonly="readonly"]:not([type]),
+input[type="text"]:disabled,
+input[type="text"][readonly="readonly"],
+input[type="password"]:disabled,
+input[type="password"][readonly="readonly"],
+input[type="email"]:disabled,
+input[type="email"][readonly="readonly"],
+input[type="url"]:disabled,
+input[type="url"][readonly="readonly"],
+input[type="time"]:disabled,
+input[type="time"][readonly="readonly"],
+input[type="date"]:disabled,
+input[type="date"][readonly="readonly"],
+input[type="datetime"]:disabled,
+input[type="datetime"][readonly="readonly"],
+input[type="datetime-local"]:disabled,
+input[type="datetime-local"][readonly="readonly"],
+input[type="tel"]:disabled,
+input[type="tel"][readonly="readonly"],
+input[type="number"]:disabled,
+input[type="number"][readonly="readonly"],
+input[type="search"]:disabled,
+input[type="search"][readonly="readonly"],
+textarea.materialize-textarea:disabled,
+textarea.materialize-textarea[readonly="readonly"] {
+  border-bottom-style:dotted;
+}
+
+input:focus:not([type]):not([readonly]) + label,
+input[type="text"]:focus:not([readonly]) + label,
+input[type="password"]:focus:not([readonly]) + label,
+input[type="email"]:focus:not([readonly]) + label,
+input[type="url"]:focus:not([readonly]) + label,
+input[type="time"]:focus:not([readonly]) + label,
+input[type="date"]:focus:not([readonly]) + label,
+input[type="datetime"]:focus:not([readonly]) + label,
+input[type="datetime-local"]:focus:not([readonly]) + label,
+input[type="tel"]:focus:not([readonly]) + label,
+input[type="number"]:focus:not([readonly]) + label,
+input[type="search"]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+.input-field input[type="text"]:focus + label,
+.input-field textarea.materialize-textarea:focus:not([readonly]) + label
+{
+  color: #9e9e9e;
+}
+
+input:not([type]), input[type="text"], input[type="password"],
+input[type="email"], input[type="url"], input[type="time"],
+input[type="date"], input[type="datetime"], input[type="datetime-local"],
+input[type="tel"], input[type="number"], input[type="search"],
+textarea.materialize-textarea {
+  border-bottom:1px dotted #9e9e9e;
+}
+
+input:focus:not([type]):not([readonly]),
+input[type="text"]:focus:not([readonly]),
+input[type="password"]:focus:not([readonly]),
+input[type="email"]:focus:not([readonly]),
+input[type="url"]:focus:not([readonly]),
+input[type="time"]:focus:not([readonly]),
+input[type="date"]:focus:not([readonly]),
+input[type="datetime"]:focus:not([readonly]),
+input[type="datetime-local"]:focus:not([readonly]),
+input[type="tel"]:focus:not([readonly]),
+input[type="number"]:focus:not([readonly]),
+input[type="search"]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom:1px dotted #9e9e9e;
+  box-shadow: none;
+}

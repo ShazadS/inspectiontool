@@ -1,0 +1,25 @@
+import React, {Component, PropTypes} from 'react';
+import Modal from 'react-modal';
+import SignaturePad from 'react-signature-pad';
+
+export default class SignatureModal extends Component{
+    render () {
+        let signature = "PDIsignature";
+        return (
+            <div>
+                <Modal
+                    isOpen={ this.state.isOpen }
+                    close={ this.props.closeModal }
+                    contentLabel="Modal"
+                    title="Demo Controlled Modal">
+
+                    <p>This modal is controlled by the parent component. It can be opened and closed by padding props to the component</p>
+                    <div>
+                        <SignaturePad clearButton="true" name={signature} id={signature}/>
+                    </div>
+                    <button onClick={ this.props.closeModal }>Click Here to Close</button>
+                </Modal>
+            </div>
+        );
+    }
+};

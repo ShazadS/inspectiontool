@@ -1,0 +1,124 @@
+header {
+  margin-bottom:30px;
+}
+nav ul a, nav .brand-logo {
+  color: #1E88E5;
+}
+
+nav .brand-logo img {
+  //position:inherit;
+  padding-top:12px;
+}
+
+.iconBlue {
+  color: #014b8e;
+}
+
+// css for LOADER
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  width: 100px;
+  height: 100px;
+  background: url("../images/loader.gif") no-repeat center center;
+}
+
+/* main nav css */
+
+header {
+  nav {
+    ul {
+      li:hover ul, li:focus ul, li:active ul {
+        display: block;
+        position: absolute;
+        z-index: 999;
+        border-right: 1px solid #A8ABAD;
+      }
+      li {
+        position: relative;
+        a:hover, a:focus, a:active {
+          background-color: #EBECEE;
+        }
+        ul {
+          display: none;
+          li {
+            float: left;
+            white-space: nowrap;
+            background-color: #EBECEE;
+            position: relative;
+            margin:0;
+            padding:0;
+            width: 170px;
+            border-bottom: 1px solid #A8ABAD;
+            a {
+              display: block;
+              margin:0;
+              padding:0 0 0 5%;
+              overflow: hidden;
+            }
+            a:hover {
+              background-color: #F2F3F4;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*      MOBILE MENU     */
+
+
+
+header {
+  nav {
+    ul#nav-mobile {
+      li:hover ul {
+        border-right: 0px;
+        z-index: 9999;
+        position: relative;
+      }
+
+      li {
+        display: block;
+        clear: both;
+        ul {
+          display: block;
+          clear: both;
+          li {
+            white-space: nowrap;
+            margin:0;
+            padding:0;
+            border:0px;
+            a {
+              display: block;
+              margin:0;
+              padding: 0 16px;
+
+
+            }
+            a:hover {
+              border:0px;
+            }
+          }
+        }
+      }
+      span {
+        #login-buttons.login-buttons-dropdown-align-right #login-dropdown-list {
+          left:25px;
+        }
+        div#login-dropdown-list {
+          top:50px;
+        }
+      }
+    }
+  }
+}
+
+
+
+

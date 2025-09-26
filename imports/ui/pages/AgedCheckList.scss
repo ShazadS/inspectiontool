@@ -1,0 +1,973 @@
+
+.clear {
+  clear: both;
+}
+
+//nav ul li ul {
+//  display: none;
+//}
+
+.car-left, .car-right, .car-top {
+  .left-top a , .right-top a, .bottom-left a, .bottom-right a {
+    //width: 294px;
+    width: 100%;
+    height:121px;
+    margin:0;
+    padding:0;
+    float: left;
+    display: block;
+    outline: 0;
+  }
+  //.left-top a, .right-top a, .bottom-left a, .bottom-right a {
+  //  display: block;
+  //}
+}
+
+.car-front, .car-back {
+  .left-top a, .right-top a, .bottom-left a, .bottom-right a {
+    //width: 156px;
+    width: 100%;
+    height:121px;
+    margin:0;
+    padding:0;
+    float: left;
+    display: block;
+    outline: 0;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 320px) {
+  .container.vehSchematic {
+    width: 100%;
+  }
+  .container.vehSchematic .row .col {
+    //margin: 0;
+    padding:0;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .container.vehSchematic {
+    width: 90%;
+  }
+  .container.vehSchematic .row .col {
+  //  margin: 0;
+    padding:0;
+  }
+
+}
+
+@media only screen and (min-width: 700px) {
+  .container.vehSchematic .row .col {
+  //  margin: auto;
+    padding:auto;
+  }
+
+}
+
+//CSS FOR SUV
+
+.suv {
+  .car-left {
+    .left-top a {
+      background: url("../images/suv/suv-left-left-top-hover.png") no-repeat right top ;
+
+    }
+    .right-top a {
+      background: url("../images/suv/suv-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/suv/suv-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/suv/suv-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/suv/suv-left-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/suv/suv-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/suv/suv-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/suv/suv-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+
+
+  .car-front {
+    .left-top a {
+      background: url("../images/suv/suv-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/suv/suv-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/suv/suv-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/suv/suv-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/suv/suv-front-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/suv/suv-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/suv/suv-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/suv/suv-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+
+
+  .car-right {
+    .left-top a {
+      background: url("../images/suv/suv-right-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/suv/suv-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/suv/suv-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/suv/suv-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/suv/suv-right-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/suv/suv-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/suv/suv-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/suv/suv-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+
+  }
+  .car-back {
+    .left-top a {
+      background: url("../images/suv/suv-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/suv/suv-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/suv/suv-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/suv/suv-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/suv/suv-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/suv/suv-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/suv/suv-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/suv/suv-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+  .car-top {
+    .left-top a {
+      background: url("../images/suv/suv-top-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/suv/suv-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/suv/suv-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/suv/suv-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+
+
+  .left-top a:hover, .left-top a:focus, .left-top a:active {
+    background: url("../images/suv/suv-top-left-top-hover.png") no-repeat right top ;
+  }
+  .right-top a:hover, .right-top a:focus, .right-top a:active {
+    background: url("../images/suv/suv-top-right-top-hover.png") no-repeat left top;
+  }
+  .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+    background: url("../images/suv/suv-top-bottom-left-hover.png") no-repeat bottom right;
+  }
+  .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+    background: url("../images/suv/suv-top-bottom-right-hover.png") no-repeat bottom left;
+  }
+
+}
+
+//CSS FOR VAN
+.van {
+  .car-left {
+    .left-top a {
+      background: url("../images/van/van-left-left-top-hover.png") no-repeat right top ;
+    }
+    .left-top a:visited {
+      opacity: 0.5;
+    }
+    .right-top a {
+      background: url("../images/van/van-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/van/van-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/van/van-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/van/van-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/van/van-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/van/van-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/van/van-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+
+  .car-front {
+    .left-top a {
+      background: url("../images/van/van-front-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/van/van-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/van/van-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/van/van-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/van/van-front-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/van/van-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/van/van-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/van/van-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+
+
+
+  .car-right {
+    .left-top a {
+      background: url("../images/van/van-right-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/van/van-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/van/van-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/van/van-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/van/van-right-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/van/van-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/van/van-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/van/van-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+  .car-back {
+    .left-top a {
+      background: url("../images/van/van-back-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/van/van-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/van/van-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/van/van-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/van/van-back-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/van/van-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/van/van-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/van/van-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-top {
+    .left-top a {
+      background: url("../images/van/van-top-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/van/van-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/van/van-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/van/van-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/van/van-top-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/van/van-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/van/van-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/van/van-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+}
+
+
+
+//CSS FOR WAGON
+
+.wagon {
+  .car-left {
+    .left-top a {
+      background: url("../images/wagon/wagon-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/wagon/wagon-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/wagon/wagon-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/wagon/wagon-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/wagon/wagon-left-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/wagon/wagon-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/wagon/wagon-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/wagon/wagon-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-front {
+    .left-top a {
+      background: url("../images/wagon/wagon-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/wagon/wagon-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/wagon/wagon-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/wagon/wagon-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/wagon/wagon-front-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/wagon/wagon-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/wagon/wagon-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/wagon/wagon-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+  .car-right {
+    .left-top a {
+      background: url("../images/wagon/wagon-right-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/wagon/wagon-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/wagon/wagon-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/wagon/wagon-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/wagon/wagon-right-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/wagon/wagon-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/wagon/wagon-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/wagon/wagon-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+  .car-back {
+    .left-top a {
+      background: url("../images/wagon/wagon-back-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/wagon/wagon-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/wagon/wagon-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/wagon/wagon-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/wagon/wagon-back-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/wagon/wagon-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/wagon/wagon-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/wagon/wagon-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+  .car-top {
+    .left-top a {
+      background: url("../images/wagon/wagon-top-left-top-hover.png") no-repeat right top;
+    }
+    .right-top a {
+      background: url("../images/wagon/wagon-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/wagon/wagon-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/wagon/wagon-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/wagon/wagon-top-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/wagon/wagon-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/wagon/wagon-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/wagon/wagon-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+}
+
+
+
+//CSS FOR hatch
+
+.hatch {
+  .car-left {
+    .left-top a {
+      background: url("../images/hatchback/hatch-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/hatchback/hatch-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/hatchback/hatch-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/hatchback/hatch-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/hatchback/hatch-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/hatchback/hatch-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/hatchback/hatch-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-left a:focus, .bottom-left a:active, .bottom-right a:visited {
+      background: url("../images/hatchback/hatch-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+    //.bottom-right a:hover, .bottom-right a:focus {
+    //  background: url("../images/hatchback/hatch-left-bottom-right-hover.png") no-repeat bottom right;
+    //}
+    //.bottom-right a.cursorHand:active, .bottom-right a.cursorHand:focus, .bottom-right a.cursorHand:visited {
+    //  background: url("../images/hatchback/hatch-left-bottom-right-hover.png") no-repeat bottom right;
+    //}
+  }
+  .car-front {
+    .left-top a {
+      background: url("../images/hatchback/hatch-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/hatchback/hatch-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/hatchback/hatch-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/hatchback/hatch-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/hatchback/hatch-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/hatchback/hatch-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/hatchback/hatch-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/hatchback/hatch-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-right {
+    .left-top a {
+      background: url("../images/hatchback/hatch-right-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/hatchback/hatch-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/hatchback/hatch-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/hatchback/hatch-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/hatchback/hatch-right-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/hatchback/hatch-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/hatchback/hatch-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/hatchback/hatch-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-back {
+    .left-top a {
+      background: url("../images/hatchback/hatch-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/hatchback/hatch-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/hatchback/hatch-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/hatchback/hatch-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/hatchback/hatch-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/hatchback/hatch-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/hatchback/hatch-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/hatchback/hatch-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-top {
+    .left-top a {
+      background: url("../images/hatchback/hatch-top-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/hatchback/hatch-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/hatchback/hatch-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/hatchback/hatch-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/hatchback/hatch-top-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/hatchback/hatch-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/hatchback/hatch-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/hatchback/hatch-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+}
+
+
+//CSS FOR sedan
+.sedan {
+  .car-left {
+    col.m6.left-top a, col.m6.right-top a, col.m6.bottom-left a, col.m6.bottom-right a {
+      margin:0;
+      padding:0;
+      background-size: cover;
+      //  background-size: 100% 100%;
+      //-webkit-background-size: 100% 100%;
+      //-moz-background-size: 100% 100%;
+      //-o-background-size: 100% 100%;
+    }
+    .left-top a {
+      background: url("../images/sedan/sedan-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/sedan/sedan-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/sedan/sedan-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/sedan/sedan-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/sedan/sedan-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/sedan/sedan-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/sedan/sedan-left-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/sedan/sedan-left-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+
+
+  .car-front {
+    .left-top a {
+      background: url("../images/sedan/sedan-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/sedan/sedan-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/sedan/sedan-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/sedan/sedan-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/sedan/sedan-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/sedan/sedan-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/sedan/sedan-front-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/sedan/sedan-front-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-right {
+    .left-top a {
+      background: url("../images/sedan/sedan-right-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/sedan/sedan-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/sedan/sedan-right-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/sedan/sedan-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/sedan/sedan-right-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/sedan/sedan-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/sedan/sedan-right-bottom-right-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/sedan/sedan-right-bottom-right-hover.png") no-repeat bottom left;
+    }
+
+  }
+  .car-back {
+    .left-top a {
+      background: url("../images/sedan/sedan-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/sedan/sedan-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/sedan/sedan-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/sedan/sedan-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/sedan/sedan-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/sedan/sedan-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/sedan/sedan-back-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/sedan/sedan-back-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-top {
+    .left-top a {
+      background: url("../images/sedan/sedan-top-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/sedan/sedan-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/sedan/sedan-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/sedan/sedan-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/sedan/sedan-top-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/sedan/sedan-top-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/sedan/sedan-top-bottom-left-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/sedan/sedan-top-bottom-right-hover.png") no-repeat bottom left;
+    }
+  }
+}
+
+
+
+//CSS FOR truck
+.truck {
+
+
+  .car-left, .car-right, .car-top {
+    .left-top a , .right-top a, .bottom-left a, .bottom-right a {
+      height:98px;
+    } //CSS ONLY FOR TRUCK
+  }
+
+  .car-front, .car-back {
+    .left-top a, .right-top a, .bottom-left a, .bottom-right a {
+      height:98px;
+    }
+  }//CSS ONLY FOR TRUCK
+
+
+  .car-left {
+    col.m6.left-top a, col.m6.right-top a, col.m6.bottom-left a, col.m6.bottom-right a {
+      margin:0;
+      padding:0;
+      background-size: cover;
+      //  background-size: 100% 100%;
+      //-webkit-background-size: 100% 100%;
+      //-moz-background-size: 100% 100%;
+      //-o-background-size: 100% 100%;
+    }
+    .left-top a {
+      background: url("../images/truck/truck-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      //background: url("../images/truck/truck-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/truck/truck-left-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/truck/truck-left-right-bottom-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/truck/truck-left-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      //background: url("../images/truck/sedan-left-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/truck/truck-left-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/truck/truck-left-right-bottom-hover.png") no-repeat bottom left;
+    }
+  }
+
+
+  .car-front {
+    .left-top a {
+      background: url("../images/truck/truck-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/truck/truck-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/truck/truck-front-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/truck/truck-front-right-bottom-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/truck/truck-front-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/truck/truck-front-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/truck/truck-front-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/truck/truck-front-right-bottom-hover.png") no-repeat bottom left;
+    }
+  }
+  .car-right {
+    .left-top a {
+      //background: url("../images/truck/sedan-right-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/truck/truck-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/truck/truck-right-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/truck/truck-right-right-bottom-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      //background: url("../images/truck/sedan-right-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/truck/truck-right-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/truck/truck-right-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/truck/truck-right-right-bottom-hover.png") no-repeat bottom left;
+    }
+
+  }
+  .car-back {
+    .left-top a {
+      background: url("../images/truck/truck-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/truck/truck-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/truck/truck-back-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/truck/truck-back-right-bottom-hover.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/truck/truck-back-left-top-hover.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/truck/truck-back-right-top-hover.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/truck/truck-back-left-bottom-hover.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/truck/truck-back-right-bottom-hover.png") no-repeat bottom left;
+    }
+  }
+
+
+  .car-top {
+    .left-top a {
+      background: url("../images/truck/truck-top-left-top.png") no-repeat right top ;
+    }
+    .right-top a {
+      background: url("../images/truck/truck-top-right-top.png") no-repeat left top;
+    }
+    .bottom-left a {
+      background: url("../images/truck/truck-top-left-bottom.png") no-repeat bottom right;
+    }
+    .bottom-right a {
+      background: url("../images/truck/truck-top-right-bottom.png") no-repeat bottom left;
+    }
+    .left-top a:hover, .left-top a:focus, .left-top a:active {
+      background: url("../images/truck/truck-top-left-top.png") no-repeat right top ;
+    }
+    .right-top a:hover, .right-top a:focus, .right-top a:active {
+      background: url("../images/truck/truck-top-right-top.png") no-repeat left top;
+    }
+    .bottom-left a:hover, .bottom-left a:focus, .bottom-left a:active {
+      background: url("../images/truck/truck-top-left-bottom.png") no-repeat bottom right;
+    }
+    .bottom-right a:hover, .bottom-right a:focus, .bottom-right a:active {
+      background: url("../images/truck/truck-top-right-bottom.png") no-repeat bottom left;
+    }
+  }
+}
+
+
+

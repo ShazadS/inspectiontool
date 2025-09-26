@@ -1,0 +1,267 @@
+
+.inspectionDetail h5 {
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  white-space: nowrap;
+}
+h1 {
+  font-size:2.5em;
+}
+h2 {
+  font-size:1.8em;
+}
+h3 {
+  font-size:1.5em;
+}
+h4 {
+  font-size: 1.33em;
+}
+h5 {
+  font-size: 0.83em;
+}
+h6 {
+  font-size: 0.75em;
+}
+label {
+  clear: both;
+  display: block;
+}
+select {
+  display: block;
+  background-color: #f9f9f9;
+  border-radius: 0;
+  font-size: 1.33em;
+}
+
+html, body {
+  height:100%;
+  position: relative;
+}
+
+.displayInfo {
+  position: fixed;
+  bottom:0;
+  width:100%;
+  border-top:1px solid #605f5f;
+  margin: 0;
+  background: #a3a8ad none repeat scroll 0 0;
+  z-index:999;
+  height:90px;
+}
+
+
+
+/*  GRIDDLE CSS for table data */
+
+
+div.griddle-body .table thead tr th,
+div.griddle-body .table tbody tr.standard-row td,
+div.griddle-body .table tbody tr.selected td  {
+  text-align: center;
+}
+div.griddle-body .table tbody tr.selected {
+  //background-color: red;
+}
+div.griddle-body .table tbody tr.selected td {
+  color: #1e88e5;
+}
+div.griddle-body .table thead tr th {
+  cursor: default;
+}
+div.griddle-body .table tbody tr.standard-row td {
+  cursor: pointer;
+}
+
+div.griddle-body .table tbody tr.standard-row td:hover,
+div.griddle-body .table tbody tr.standard-row td:focus {
+  color: #1e88e5;
+}
+
+.griddle-column-selection label input[type="checkbox"]:not(:checked),
+.griddle-column-selection label input[type="checkbox"]:checked {
+  left: inherit;
+  opacity: 50;
+  position: inherit;
+}
+
+.griddle-container{
+  border:1px solid #DDD;
+}
+
+.griddle .top-section{
+  clear:both;
+  display:table;
+  width:100%;
+}
+
+.griddle .griddle-filter{
+  float:left;
+  width:50%;
+  text-align:left;
+  color:#222;
+  min-height:1px;
+}
+
+.griddle .griddle-settings-toggle{
+  float:left;
+  width:50%;
+  text-align:right;
+}
+
+.griddle .griddle-settings{
+  //background-color:red;
+  border:1px solid #DDD;
+  color:#222;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.griddle .griddle-settings .griddle-columns{
+  clear:both;
+  display:table;
+  width:100%;
+  border-bottom:1px solid #EDEDED;
+  margin-bottom:10px;
+}
+
+.griddle .griddle-settings .griddle-column-selection{
+  float:left;
+  width:20%;
+}
+.griddle table{
+  width:100%;table-layout:fixed;
+}
+
+.griddle th{
+  background-color:#EDEDEF;
+  border:0px;
+  border-bottom:1px solid #DDD;
+  color:#222;
+  padding:5px;
+}
+
+.griddle td{
+  padding:5px;
+  //background-color:green;
+  border-top-color:#DDD;
+  color:#222;
+}
+
+.griddle .footer-container{
+  padding:0px;
+  background-color:#EDEDED;
+  border:0px;
+  color:#222;
+}
+
+.griddle .griddle-previous, .griddle .griddle-page, .griddle .griddle-next{
+  float:left;
+  width:33%;
+  min-height:1px;
+  margin-top:5px;
+}
+
+.griddle .griddle-page{
+  text-align:left;
+}
+
+.griddle .griddle-next{
+  text-align:right;
+}
+
+table.bordered > thead > tr, table.bordered > tbody > tr {
+  height:45px;
+}
+
+
+//FAT BUTTON HOME BUTTON
+
+i.pdi-icon, i.long-storage-icon, i.h-promise-icon, i.history-icon { font-size:135px; color: #004B8E;}
+i.long-storage-icon {}
+i.h-promise-icon {}
+i.history-icon {}
+
+.font-26 {
+  font-size:27px;
+}
+
+
+.icon-size {
+  font-size:95px;
+  height:146px;
+}
+
+/* ----------- Media Query for Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media
+(min-device-width: 800px)
+and (max-device-width: 1280px) { }
+
+/* Portrait */
+@media
+(max-device-width: 800px)
+and (orientation: portrait) {
+  .griddle .griddle-container .griddle-body > div {
+    height:250px;
+  }
+}
+
+/* Landscape */
+@media
+(max-device-width: 1280px)
+and (orientation: landscape) { }
+
+
+/* SSJ */
+@media
+(max-device-width: 800px) and (orientation : portrait){
+
+  .font-26 {
+    font-size:20px;
+    padding-bottom:0px;
+  }
+
+  div.griddle-body .table tbody tr td {
+    font-size: 12px;
+  }
+
+  div.griddle-body .table tbody tr td:nth-child(1),
+  div.griddle-body .table thead tr th:nth-child(1){
+    width:130px;
+  }
+
+  div.griddle-body .table tbody tr td:nth-child(2) {
+    width:60px;
+  }
+
+}
+
+@media
+(max-device-width: 1400px) and (orientation : landscape){
+
+  .font-26 {
+    font-size:24px;
+    padding-bottom:0px;
+  }
+
+  div.griddle-body .table tbody tr td {
+    font-size: 14px;
+  }
+
+  div.griddle-body .table tbody tr td:nth-child(1),
+  div.griddle-body .table thead tr th:nth-child(1){
+    width:155px;
+  }
+
+  div.griddle-body .table tbody tr td:nth-child(2) {
+    width:100px;
+  }
+
+}
+
+.headingcolor{
+  color:#004b8d;
+}
